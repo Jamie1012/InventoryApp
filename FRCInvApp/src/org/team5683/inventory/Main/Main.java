@@ -10,7 +10,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		SQLController sql = new SQLController();
-		sql.deleteTables();
+		//sql.deleteTables();
 		sql.createTables();		
 		new MainView().prodTable(primaryStage);
 	}
